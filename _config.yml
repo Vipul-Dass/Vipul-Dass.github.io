@@ -5,7 +5,7 @@ keywords: ephesus, blog
 description: >-
   A Nook Where I Document the Tid Bits I learn
 lang: en-US
-timezone:  India
+timezone: India
 repo: https://github.com/Vipul-Dass # site repo [optional]
 #google_verify:      XXX # Put your Google Verification here
 #google_analytics:   UA-XXXXXXXX-00 # Put your Google Analytics code
@@ -15,7 +15,7 @@ repo: https://github.com/Vipul-Dass # site repo [optional]
 author:
   name: Vipul Dass
   bio: App Developer at DXC Technology
-  picture: assets/images/profile.jpg 
+  picture: assets/images/profile.jpg
   github: Vipul-Dass # github username
   #twitter: onepase # twitter username
   #facebook: onepase # facebook username
@@ -24,16 +24,14 @@ author:
   linkedin: vipul-dass-94b82b9a # linkedin username
   email: vipulhdass@gmail.com # email adress
 
-
 # URL settings
-url: "Vipul-Dass.github.io" # Domain Name of host. [username].github.io for github pages
+url: "" # Domain Name of host. [username].github.io for github pages
 permalink: pretty
 
 markdown: kramdown
 kramdown:
   input: GFM
   syntax_highlighter: rouge
-
 
 exclude:
   - .jekyll-cache
@@ -58,26 +56,23 @@ collections:
   posts:
     output: true
     permalink: /:slug
-  
+
 defaults:
-  -
-    scope:
+  - scope:
       path: ""
     values:
       layout: "default"
-  -
-    scope:
+  - scope:
       path: ""
       type: "pages"
     values:
       layout: "page"
-  -
-    scope:
+  - scope:
       path: ""
       type: "posts"
     values:
       layout: "post"
 
 relative_links:
-  enabled:     true
+  enabled: true
   collections: false
